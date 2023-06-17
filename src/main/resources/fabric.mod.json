@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "made_in_china",
+  "version": "${version}",
+  "name": "Made in China",
+  "description": "A mod make items harder than before",
+  "authors": [
+    "Default Snowman"
+  ],
+  "contact": {
+    "repo": "https://github.com/Administrator/made in china"
+  },
+  "license": "MIT",
+  "icon": "assets/made_in_china/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.netheriteqf.madeinchina.MadeInChina"
+    ]
+  },
+  "mixins": [
+    "mic.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
